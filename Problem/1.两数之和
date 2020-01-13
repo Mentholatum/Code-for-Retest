@@ -9,10 +9,9 @@ public:
 				if(target == tempt){
 					return {i,j};
 				}
-				return {-1,-1};
 			}
 		} 
-    	return {i,j};
+    	return {-1,-1};
 	}
 };
 
