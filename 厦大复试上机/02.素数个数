@@ -9,7 +9,7 @@ bool isPrime(int num){
 	int n,m;
 	m = (int)sqrt(num) + 1;//减小代价的关键一步 
 	if( m  < 2)
-		return true;
+		return false;
 	for(int i = 2; i < m; i++){
 		if(num%i == 0){
 			return false;
