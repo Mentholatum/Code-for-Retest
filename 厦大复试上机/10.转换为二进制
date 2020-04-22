@@ -16,7 +16,7 @@ int main(){
 			number /= 2;
 			len++; 
 		}
-		for(j = len - 1;j >= 0;j--){
+		for(j = len - 1;j >= 0;j--){//注意这里的下标范围
 			cout<<arr[j];
 		}
 		cout <<endl;
