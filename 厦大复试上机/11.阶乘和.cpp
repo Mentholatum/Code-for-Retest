@@ -1,4 +1,4 @@
-求k阶乘的累加和
+//求k阶乘的累加和
 
 #include<iostream>
 
