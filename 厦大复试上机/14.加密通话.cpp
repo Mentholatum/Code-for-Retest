@@ -12,10 +12,10 @@ int main(){
 	char temp;
 	while(cin >> arr){
 		for(i = 0;i < 4; i++){
-			arr[i] -= 48;//根据ASCII码将char转化为int 
+			arr[i] -= '0';//根据ASCII码将char转化为int 
 			arr[i] += 5; 
 			arr[i] %= 10;
-			arr[i] += 48;//加密完成后再将int改回char 
+			arr[i] += '0';//加密完成后再将int改回char 
 		}
 		
 		temp = arr[0]; arr[0] = arr[3]; arr[3] = temp;
