@@ -1,4 +1,4 @@
-判断a~b之间的素数个数，要求代价尽可能小
+//判断a~b之间的素数个数，要求代价尽可能小
 
 #include<iostream>
 #include<cmath>
