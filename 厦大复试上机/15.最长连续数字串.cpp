@@ -23,10 +23,10 @@ int main(){
 	while(gets(arr)){
 		n = strlen(arr);
 		for(; p < n; p++){
-			while(!(arr[p] >= 48 && arr[p] <= 57))
+			while(!(arr[p] >= '0' && arr[p] <= '9'))
 				p++;
 			i = p;
-			while(arr[p] >= 48 && arr[p] <= 57)
+			while(arr[p] >= '0' && arr[p] <= '9')
 				p++;
 			j = p;
 			len = j - i;
