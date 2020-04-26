@@ -1,4 +1,4 @@
-判断一个数字是否为回文数
+//判断一个数字是否为回文数
 #include<iostream>
 
 using namespace std;
