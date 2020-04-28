@@ -12,10 +12,11 @@
 using namespace std;
 
 int main(){
-	float money,temp = 0.0;
+	float money,temp;
 	int n;
 	while(cin >> money >> n){
 		float a[n];
+		temp = 0.0;
 		for(int i = 0;i < n - 1;i++){
 			do{
 				temp = rand()%(int)(money*100)*0.01;//钱的单位是元，故精确到小数点后两位
