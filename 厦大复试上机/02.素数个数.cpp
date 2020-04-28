@@ -20,15 +20,16 @@ bool isPrime(int num){
 
 int main(){
 	int i,a,b;
-	int count = 0;
+	int count;
 	while(cin >> a >> b){
+		count = 0; 
 		if(a > b)
 			return 0;
 		for( i = a;i < b; i++){
 			if(isPrime(i))
 			count++;
 		}
-		cout << count;
+		cout << count << endl;
 	}
 	return 0;
 } 
