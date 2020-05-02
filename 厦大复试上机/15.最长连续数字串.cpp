@@ -23,7 +23,7 @@ int main(){
 	while(gets(arr)){
 		n = strlen(arr);
 		for(; p < n; p++){
-			while(!(arr[p] >= '0' && arr[p] <= '9'))
+			while(!(arr[p] >= '0' && arr[p] <= '9'))	//找到第一个数字的位置
 				p++;
 			i = p;
 			while(arr[p] >= '0' && arr[p] <= '9')
