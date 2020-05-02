@@ -18,9 +18,11 @@ using namespace std;
 int main(){
 	char arr[1000];
 	int high,low;
-	int i = 0,j = 0, p = 0, max = 0, len = 0;
+	int i,j,p, max,len;
 	int n;
 	while(gets(arr)){
+		max = 0, len = 0;
+		i = 0,j = 0, p = 0;
 		n = strlen(arr);
 		for(; p < n; p++){
 			while(!(arr[p] >= '0' && arr[p] <= '9'))	//找到第一个数字的位置
